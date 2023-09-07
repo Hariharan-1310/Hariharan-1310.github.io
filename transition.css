@@ -1,0 +1,37 @@
+/*.square{
+    background:radial-gradient(red,orange,orangered);
+    height: 500px;
+    width: 500px;
+}
+.square:hover{
+background:radial-gradient(blue,green,yellow);
+}*/
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    position: relative;
+    animation-timing-function: 3s;
+    animation-duration: 5s;
+}
+@keyframes circle{
+    20%{
+        background-color: red;
+        height: 70px;
+        width: 70px;
+        top: 50px;
+        left: 50px;
+    }
+    100%{
+        background-color: brown;
+        top: 200px;
+        left: 200px;
+        width: 300px;
+        height: 300px;
+        
+    }
+}

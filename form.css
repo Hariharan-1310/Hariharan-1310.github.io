@@ -1,0 +1,44 @@
+body{
+    background: url(../images/959144.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.regform{
+    font-size: 25px;
+    width: 400px;
+    background-color: rgba(120, 110, 111, .2);
+    margin: 150px auto;
+    color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 8px aquamarine,-5px -5px 8px aquamarine,
+    inset 5px 5px 8px aquamarine,inset -5px -5px 8px aqua;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+}
+.input input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    margin: 10px 0px 15px;
+  
+}
+.radio input{
+ transform: scale(1.5);
+
+}
+.btn{
+    text-align: center;
+}
+button{
+    margin-top: 15px;
+    font-size: 25px;
+    width: 40%;
+}
+.input input:hover{
+    background-color: aqua;
+}
+.radio input{
+    background-color: aqua;
+}

@@ -1,0 +1,35 @@
+/*ol{
+    list-style-type: lower-alpha;
+}
+ul{
+    list-style-type:lower-roman;
+}*/
+
+thead,th{
+    background-color:cadetblue;
+
+}
+th,td{
+    border: 1px solid black;
+    
+    box-shadow: 5px 5px 20px red,-5px -5px 20px black;
+    text-align: center;
+   
+    
+}
+tfoot{
+    background-color: bisque;
+    
+}
+th{
+    text-transform:uppercase;
+}
+table{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+

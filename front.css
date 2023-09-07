@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(to right, rgb(23, 23, 131),rgb(216, 228, 56));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    color: pink;
+    font-size: 20px;
+}
+.frm{
+    border: 1px solid black;
+    width: 300px;
+    height: 450px;
+    margin: 50px auto;
+    background-color: black;
+    border-radius: 17px;
+    box-shadow: 15px 15px 30px green,-15px -15px 30px black, inset 10px 10px 25px green;
+}
+.txt{
+    text-align: center;
+    
+}
+.btn{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+button{
+    color: white;
+    border:  1px solid black;
+    margin-top: 74px;
+    font-size: 25px;
+    width: 301px;
+    background-color: green;
+    border-bottom-left-radius:  14px;
+    border-bottom-right-radius: 14px;
+
+}
+.img{
+    margin: 80px auto;
+    text-align:center;
+
+}
+img{
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+a:hover{
+    color:rgb(236, 221, 7);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
